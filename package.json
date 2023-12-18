@@ -1,36 +1,15 @@
 {
-  "name": "create-il-app",
-  "version": "1.0.59",
-  "description": "Create IL project",
-  "main": "src/index.js",
-  "bin": "bin/create-il-app.js",
+  "name": "allure-generator-il",
+  "version": "1.0.0",
+  "description": "IL allure version",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DemonDis/create-il-app.git"
+    "url": "https://github.com/DemonDis/allure-generator-i.git"
   },
   "keywords": [
-    "micro-frontend",
-    "micro frontend",
-    "microfrontend",
-    "microfront",
-    "webpack5",
-    "module-federation",
-    "single-spa",
-    "wsrun",
-    "storybook",
-    "react",
-    "vue3",
-    "next",
-    "nuxt",
-    "remix",
-    "svelte",
-    "tailwind",
-    "bootstrap",
-    "scss",
-    "SPA",
-    "SSR"
+    "allure"
   ],
   "author": "Dmitry Shibikin",
   "license": "MIT",
-  "homepage": "https://github.com/DemonDis/create-il-app#readme"
+  "homepage": "https://github.com/DemonDis/allure-generator-il#readme"
 }
