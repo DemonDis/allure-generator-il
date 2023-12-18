@@ -1,0 +1,36 @@
+{
+  "name": "create-il-app",
+  "version": "1.0.59",
+  "description": "Create IL project",
+  "main": "src/index.js",
+  "bin": "bin/create-il-app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DemonDis/create-il-app.git"
+  },
+  "keywords": [
+    "micro-frontend",
+    "micro frontend",
+    "microfrontend",
+    "microfront",
+    "webpack5",
+    "module-federation",
+    "single-spa",
+    "wsrun",
+    "storybook",
+    "react",
+    "vue3",
+    "next",
+    "nuxt",
+    "remix",
+    "svelte",
+    "tailwind",
+    "bootstrap",
+    "scss",
+    "SPA",
+    "SSR"
+  ],
+  "author": "Dmitry Shibikin",
+  "license": "MIT",
+  "homepage": "https://github.com/DemonDis/create-il-app#readme"
+}
