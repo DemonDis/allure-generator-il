@@ -1,3 +1,3 @@
 import SummaryWidgetViewIL from "./SummaryWidgetViewIL";
 
-allure.api.addWidget("widgets", "summary-il", SummaryWidgetViewIL);
+allure.api.addWidget("graph-il", "summary-il", SummaryWidgetViewIL);
