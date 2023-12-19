@@ -23,7 +23,7 @@ module.exports = webpackMerge(commonConfig({ env: ENV }), {
     main: "./src/main/javascript/index",
   },
   output: {
-    path: utils.root("build/www"),
+    path: utils.root("report"),
     publicPath: "/",
     filename: "app.js",
   },

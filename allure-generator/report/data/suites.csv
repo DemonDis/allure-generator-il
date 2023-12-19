@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Nov 30 03:17:20 NOVT 2016","Wed Nov 30 03:17:20 NOVT 2016","3","","My suite","","","","shouldDelete",""
+"passed","Wed Nov 30 03:17:10 NOVT 2016","Wed Nov 30 03:17:10 NOVT 2016","2","","My suite","","","","shouldCreate",""
+"passed","Wed Nov 30 03:16:59 NOVT 2016","Wed Nov 30 03:16:59 NOVT 2016","4","","","","test.labels.module_severity_test","","attachmentsInStep",""
+"passed","Wed Nov 30 03:17:30 NOVT 2016","Wed Nov 30 03:17:30 NOVT 2016","1","","My suite","","","","shouldMainTest",""
+"passed","Wed Nov 30 03:16:59 NOVT 2016","Wed Nov 30 03:16:59 NOVT 2016","4","","My suite","","","","shouldCreate",""

@@ -25,3 +25,28 @@ $ allure open -p 9999 report&
 $ cp -r ./report/history ./logs
 ```
 
+# ALLURE 
+
+## Start Allure
+
+```bash
+$ allure generate logs --clean -o report
+```
+```bash
+$ allure open -p 9999 report&
+```
+```bash
+$ cp -r ./report/history ./logs
+```
+
+# NODE BUILD 
+
+```bash
+$ yarn
+```
+```bash
+$ export NODE_OPTIONS=--openssl-legacy-provider
+```
+```bash
+$ yarn build
+```

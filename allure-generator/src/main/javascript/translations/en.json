@@ -32,6 +32,9 @@
     "graph": {
       "name": "Graphs"
     },
+    "graph-il": {
+      "name": "IL"
+    },
     "timeline": {
       "name": "Timeline",
       "selected": "Selected {{count}} test ({{percent}}%) with duration above {{duration}}",

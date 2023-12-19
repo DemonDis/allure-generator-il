@@ -1,5 +1,6 @@
 const webpack = require("webpack");
 const webpackMerge = require("webpack-merge");
+const HtmlWebPackPlugin = require("html-webpack-plugin");
 const sass = require("sass");
 const utils = require("./utils.js");
 
@@ -16,11 +17,11 @@ const postcssLoader = {
 
 module.exports = options =>
   webpackMerge(commonConfig({ env: ENV }), {
-    devtool: "cheap-module-source-map", // https://reactjs.org/docs/cross-origin-errors.html
+    devtool: "cheap-module-source-map",
     mode: ENV,
     entry: ["./src/main/javascript/index.js"],
     output: {
-      path: utils.root("build/www"),
+      path: utils.root("report"),
       publicPath: "/",
       filename: "app.js",
     },
@@ -49,5 +50,11 @@ module.exports = options =>
         ignored: /node_modules/,
       },
     },
-    plugins: [new webpack.HotModuleReplacementPlugin()],
+    plugins: [
+      new webpack.HotModuleReplacementPlugin(),
+      new HtmlWebPackPlugin({
+        template: "./report/index.html",
+        favicon: "./report/favicon.ico"
+      }),
+    ],
   });
