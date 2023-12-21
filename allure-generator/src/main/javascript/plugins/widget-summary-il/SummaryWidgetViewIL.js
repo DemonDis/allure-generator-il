@@ -21,12 +21,12 @@ class SummaryWidgetViewIL extends View {
   }
 
   serializeData() {
-    const testRuns = this.model.get("testRuns");
-    const length = testRuns && testRuns.length;
-    return Object.assign(super.serializeData(), {
-      isAggregated: length > 1,
-      launchesCount: length,
-    });
+    console.log('!!!!!', Object.assign(super.serializeData()));
+    const testRuns = this.model.get("items");
+    console.log('*****', testRuns.map((item) => {return item}));
+    console.log('%%%%%', testRuns[0]);
+    // return testRuns.map((item) => {return item});
+    return Object.assign(super.serializeData());
   }
 }
 
