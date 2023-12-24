@@ -20,6 +20,7 @@ import "./plugins/tab-graph-il";
 import "./plugins/tab-timeline";
 
 import "./plugins/widget-status";
+import "./plugins/widget-status-il";
 import "./plugins/widget-severity";
 import "./plugins/widget-duration";
 import "./plugins/widget-duration-trend";

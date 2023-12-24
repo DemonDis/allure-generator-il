@@ -37,6 +37,9 @@
       "selected_0": "Выбран {{count}} тест ({{percent}}%) с длительностью выше {{duration}}",
       "selected_1": "Выбрано {{count}} теста ({{percent}}%) с длительностью выше {{duration}}",
       "selected_2": "Выбрано {{count}} тестов ({{percent}}%) с длительностью выше {{duration}}"
+    },
+    "graph-il": {
+      "name": "IL"
     }
   },
   "widget": {

@@ -1,1 +1,24 @@
-[{"uid":"5f84ba81c829573d","name":"shouldDelete","time":{"start":1480450640409,"stop":1480450640412,"duration":3},"status":"passed","severity":"normal"},{"uid":"afadf6b10680d9df","name":"shouldCreate","time":{"start":1480450630386,"stop":1480450630388,"duration":2},"status":"passed","severity":"normal"},{"uid":"97519c7bb65c4703","name":"attachmentsInStep","time":{"start":1480450619944,"stop":1480450619948,"duration":4},"status":"passed","severity":"normal"},{"uid":"307fbe75d7e98c5d","name":"shouldMainTest","time":{"start":1480450650430,"stop":1480450650431,"duration":1},"status":"passed","severity":"normal"},{"uid":"27cd503dc269ca94","name":"shouldCreate","time":{"start":1480450619944,"stop":1480450619948,"duration":4},"status":"passed","severity":"normal"}]
+[
+    {
+        "uid":"5f84ba81c829573d",
+        "name":"shouldDelete",
+        "time":{
+            "start":1480450640409,
+            "stop":1480450640412,
+            "duration":3
+        },
+        "status":"passed",
+        "severity":"normal"
+    },
+    {
+        "uid":"5f84ba81c8295732",
+        "name":"shouldDelete",
+        "time":{
+            "start":1480450640409,
+            "stop":1480450640412,
+            "duration":3
+        },
+        "status":"passed",
+        "severity":"normal"
+    }
+]

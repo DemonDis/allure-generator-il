@@ -44,7 +44,7 @@ module.exports = options =>
     devServer: {
       stats: options.stats,
       hot: true,
-      contentBase: "./build/demo-report",
+      contentBase: "./report",
       historyApiFallback: true,
       watchOptions: {
         ignored: /node_modules/,

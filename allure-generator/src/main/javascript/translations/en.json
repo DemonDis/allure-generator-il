@@ -32,13 +32,13 @@
     "graph": {
       "name": "Graphs"
     },
-    "graph-il": {
-      "name": "IL"
-    },
     "timeline": {
       "name": "Timeline",
       "selected": "Selected {{count}} test ({{percent}}%) with duration above {{duration}}",
-      "selected_plural": "Selected {{count}} tests ({{percent}}%) with duration above {{duration}}"
+      "selected_p,lural": "Selected {{count}} tests ({{percent}}%) with duration above {{duration}}"
+    },
+    "graph-il": {
+      "name": "IL"
     }
   },
   "widget": {
@@ -93,6 +93,11 @@
     "severity": {
       "name": "Severity"
     },
+    "status": {
+      "name": "Status"
+    }
+  },
+  "chart-il": {
     "status": {
       "name": "Status"
     }
