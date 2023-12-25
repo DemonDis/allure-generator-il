@@ -21,11 +21,12 @@ class SummaryWidgetViewIL extends View {
   }
 
   serializeData() {
-    console.log('!!!!!', Object.assign(super.serializeData()));
+    // console.log('!!!!!', Object.assign(super.serializeData()));
     const testRuns = this.model.get("items");
     const extra = this.model.get("tags"); 
-    console.log('*****', testRuns.map((item) => {return item}));
-    console.log('%%%%%', testRuns[0]);
+    const pie = this.model.get("pie"); 
+    // console.log('*****', testRuns.map((item) => {return item}));
+    // console.log('%%%%%', testRuns[0]);
     const ss =  testRuns.map((item) => {return item})
     // return testRuns.map((item) => {return item});
     

@@ -10,9 +10,13 @@
         </div>
     </div>
     <div class="{{b 'widget' 'column'}} {{b 'summary-widget' 'chart'}}"></div>
-
 </div>
 {{/each}}
-        Tags: {{#each tags}}
-        <span class="label label__info">{{name}}</span>
-    {{/each}}
+
+Tags: {{#each tags}}
+    <span class="label label__info">{{name}}</span>
+{{/each}}
+PIE: {{#each pie}}
+    <div class="{{b 'widget' 'column'}} {{b 'summary-widget' 'chart'}}"></div>
+{{/each}}
+

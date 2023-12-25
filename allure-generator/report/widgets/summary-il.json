@@ -8,6 +8,7 @@
             "unknown":5,
             "total":10
         },
+        
         "tags": [
             {
                 "name": "@fast",
@@ -22,6 +23,19 @@
                 "line": 21
             }
         ],
+    "pie": [
+        {
+            "statistic":
+            {
+                "failed":10,
+                "broken":10,
+                "skipped":10,
+                "passed":10,
+                "unknown":10,
+                "total":50
+            }
+        }
+    ],
     "items": [
         {
             "reportName":"WWWW",
