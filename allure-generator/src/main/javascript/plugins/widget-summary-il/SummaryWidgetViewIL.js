@@ -1,6 +1,6 @@
 import "./styles.scss";
 import { View } from "backbone.marionette";
-import PieChartView from "../../components/graph-pie-chart/PieChartView";
+import PieChartView from "./PieChartView";
 import { regions } from "../../decorators";
 import template from "./SummaryWidgetViewIL.hbs";
 
@@ -18,24 +18,10 @@ class SummaryWidgetViewIL extends View {
         showLegend: false,
       }),
     );
+    
   }
-
   serializeData() {
-    // console.log('!!!!!', Object.assign(super.serializeData()));
-    const testRuns = this.model.get("items");
-    const extra = this.model.get("tags"); 
-    const pie = this.model.get("pie"); 
-    // console.log('*****', testRuns.map((item) => {return item}));
-    // console.log('%%%%%', testRuns[0]);
-    const ss =  testRuns.map((item) => {return item})
-    // return testRuns.map((item) => {return item});
-    
-      
-    
-    return Object.assign(super.serializeData(), {
-      tags: extra,
-      items: testRuns
-    });
+    return Object.assign(super.serializeData(), {});
   }
 }
 
